@@ -14,7 +14,6 @@
 		41095BFD1D59054500DC6D89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41095BFB1D59054500DC6D89 /* LaunchScreen.storyboard */; };
 		BB10482E1D590CD600EF9B95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10482D1D590CD600EF9B95 /* ViewController.swift */; };
 		BB1048341D59176000EF9B95 /* ChatScreenStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1048331D59176000EF9B95 /* ChatScreenStoryboard.storyboard */; };
-		BB1048361D5919A500EF9B95 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BB1048351D5919A500EF9B95 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		41095BFE1D59054500DC6D89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB10482D1D590CD600EF9B95 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = chatScreen/ViewController.swift; sourceTree = "<group>"; };
 		BB1048331D59176000EF9B95 /* ChatScreenStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ChatScreenStoryboard.storyboard; path = chatScreen/ChatScreenStoryboard.storyboard; sourceTree = "<group>"; };
-		BB1048351D5919A500EF9B95 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				BB1048331D59176000EF9B95 /* ChatScreenStoryboard.storyboard */,
-				BB1048351D5919A500EF9B95 /* .gitignore */,
 				BB10482D1D590CD600EF9B95 /* ViewController.swift */,
 			);
 			name = chatScreen;
@@ -140,7 +137,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB1048361D5919A500EF9B95 /* .gitignore in Resources */,
 				41095BFD1D59054500DC6D89 /* LaunchScreen.storyboard in Resources */,
 				41095BFA1D59054500DC6D89 /* Assets.xcassets in Resources */,
 				41095BF81D59054500DC6D89 /* Main.storyboard in Resources */,
