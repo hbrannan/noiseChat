@@ -8,12 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ChatViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        
+        
+        //QUERY THE DATABASE HERE. FOR NOW:
+        // var dummyData //this is an array
+        // var dummyDatum : [String: String] = [[''],[],[],[]];
     }
 
     override func didReceiveMemoryWarning() {
