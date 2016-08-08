@@ -20,7 +20,7 @@ DerivedData/
 
 
 ##xcUserData
-xcuserdata/
+*xcuserdata/
 
 ## Other
 *.moved-aside
@@ -34,7 +34,11 @@ xcuserdata/
 
 ## Playgrounds
 timeline.xctimeline
-playground.xcworkspace
+*playground.xcworkspace
+
+
+## Project Workspace
+*project.xcworkspace
 
 # Swift Package Manager
 #
