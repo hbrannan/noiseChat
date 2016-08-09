@@ -1,1 +1,2 @@
+#reads pbx file as binary and automerges the file
 *.pbxproj binary merge=union
