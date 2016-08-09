@@ -15,16 +15,16 @@ class ChatViewController: UIViewController {
         // Do any additional setup after loading the view.
             //QUERY THE DATABASE HERE. 
             //
-        [["createdAt": "2", "user": "Mikey", "mssg":"Cik"], {}, {}]
-        
-             //dummy data should be an array that takes dictionaries.
-        var dummyData : [[String: String]]()
-        var dummyDatum1 : [String: String] = ["createdAt": "1", "user":"HCB", "mssg":"yo"]
-        var dummyDatum2 : [String: String] = ["createdAt": "2", "user":"MDLC", "mssg":"NOT yolo"];
-        var dummyDatum3 : [String: String] = ["createdAt": "3", "user":"HCB", "mssg":"NOT yolo"];
-        
-        dummyData[dummyDatum1, dummyDatum2, dummyDatum3];
-        
+        //dummy data should be an array that takes dictionaries.
+        var dummyDataArray : [Dictionary<String, String>] = []
+        //define a set of dictionaries
+        var dummyDatum1 : Dictionary<String, String> = ["createdAt": "1", "user":"HCB", "mssg":"yo"]
+        var dummyDatum2 : Dictionary<String, String> = ["createdAt": "2", "user":"MDLC", "mssg":"NOT yolo"];
+        var dummyDatum3 : Dictionary<String, String> = ["createdAt": "3", "user":"HCB", "mssg":"NOT yolo"];
+        //append each of those into dummyDataArray
+        dummyDataArray.append(dummyDatum1)
+        dummyDataArray.append(dummyDatum2)
+        dummyDataArray.append(dummyDatum3)
         
     }
 

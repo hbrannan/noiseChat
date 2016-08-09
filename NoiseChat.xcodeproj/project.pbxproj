@@ -12,8 +12,8 @@
 		41095BF81D59054500DC6D89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41095BF61D59054500DC6D89 /* Main.storyboard */; };
 		41095BFA1D59054500DC6D89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41095BF91D59054500DC6D89 /* Assets.xcassets */; };
 		41095BFD1D59054500DC6D89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41095BFB1D59054500DC6D89 /* LaunchScreen.storyboard */; };
-		BB10482E1D590CD600EF9B95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10482D1D590CD600EF9B95 /* ViewController.swift */; };
 		41095C0A1D5923AB00DC6D89 /* FriendsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41095C091D5923AB00DC6D89 /* FriendsListViewController.swift */; };
+		BB10482E1D590CD600EF9B95 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10482D1D590CD600EF9B95 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		41095BF91D59054500DC6D89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41095BFC1D59054500DC6D89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41095BFE1D59054500DC6D89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB10482D1D590CD600EF9B95 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = chatScreen/ViewController.swift; sourceTree = "<group>"; };
 		41095C091D5923AB00DC6D89 /* FriendsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsListViewController.swift; sourceTree = "<group>"; };
+		BB10482D1D590CD600EF9B95 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatViewController.swift; path = chatScreen/ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 		BB10482C1D590A8200EF9B95 /* chatScreen */ = {
 			isa = PBXGroup;
 			children = (
-				BB10482D1D590CD600EF9B95 /* ViewController.swift */,
+				BB10482D1D590CD600EF9B95 /* ChatViewController.swift */,
 			);
 			name = chatScreen;
 			sourceTree = "<group>";
@@ -150,7 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB10482E1D590CD600EF9B95 /* ViewController.swift in Sources */,
+				BB10482E1D590CD600EF9B95 /* ChatViewController.swift in Sources */,
 				41095BF51D59054500DC6D89 /* ViewController.swift in Sources */,
 				41095C0A1D5923AB00DC6D89 /* FriendsListViewController.swift in Sources */,
 				41095BF31D59054500DC6D89 /* AppDelegate.swift in Sources */,
